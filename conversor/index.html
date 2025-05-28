@@ -5,16 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Conversor de Moedas </title>
     <style>
-        body{
+        body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
-            background-image: linear-gradient right();
-            color: #22223B;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000, #22223B);
+            color: #F2E9E4; 
         }
-        main{
-            background-color: #F2E9E4;
-            padding: 100px;
-            margin: 15vh;
+        main {
+            background-color: #4A4E69; 
+            padding: 50px;
+            margin: 15vh auto;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #9A8C98; 
+        }
+        h1 {
+            color: #F2E9E4;
+            margin-bottom: 30px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        input[type="number"] {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            background-color: #9A8C98;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #C9ADA7;
         }
     </style>
 </head>
